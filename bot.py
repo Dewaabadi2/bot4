@@ -109,5 +109,3 @@ if __name__ == "__main__":
         c = i
         #print(f"Proses: {nama} ({email})")
         asyncio.run(main(nama, email, c))
-    last = contacts[c]['nama']
-    print(f"Angka terakhir : {c} {last}")
